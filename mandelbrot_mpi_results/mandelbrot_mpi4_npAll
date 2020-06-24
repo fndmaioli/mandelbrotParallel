@@ -1,0 +1,163 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad01
+
+Initial Time is Wed Jun 24 01:01:41 BRT 2020
+
+Directory is /home/pp12733/mpi/mpiSolution
+
+This jobs runs on the following nodes:
+grad01 grad04 grad03 grad02
+
+JOB_ID:
+128390
+
+--bynode -np 4
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.55376196 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   2.21211910 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   4.97819805 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   8.84327102 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  13.82166505 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  19.90061808 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  27.08589387 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  35.37236500 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  44.77352405 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  55.26309299 seconds
+--bynode -np 8
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.28189397 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   1.12470603 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   2.52904201 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   4.49918199 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   7.03545785 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   9.96244287 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  13.57035804 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  17.72885704 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  22.41510391 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  27.67981696 seconds
+--bynode -np 16
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.10520411 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.38121605 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.87192297 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.55357885 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   2.41685915 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   3.43154597 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   4.64214993 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   6.17233300 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   7.86963391 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   9.62192392 seconds
+--bynode -np 32
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.07956100 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.28027487 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.62567711 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.11119390 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.72355604 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   2.49301195 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   3.38822722 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   4.41870999 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   5.58231497 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   6.92575407 seconds
+--bynode -np 64
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.07392788 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.15682411 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.34604597 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   0.60663795 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   0.95102501 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   1.37013888 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   1.85479307 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   2.42391109 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   3.08379102 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   3.77942395 seconds
+Final Time is Wed Jun 24 01:08:25 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12733 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:18:07 
+
+ -- MEMORY       = 124772kb 
+
+ -- VIRTUAL MEM  = 4382808kb 
+
+ -- ELAPSED TIME = 00:06:45 
+

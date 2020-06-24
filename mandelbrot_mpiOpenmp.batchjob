@@ -19,5 +19,5 @@ echo
 echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ################
-mpirun ./mandelbrot_mpiOpenmp.o
+mpirun -np 32 ./mandelbrot_mpiOpenmp.o
 echo Final Time is `date`

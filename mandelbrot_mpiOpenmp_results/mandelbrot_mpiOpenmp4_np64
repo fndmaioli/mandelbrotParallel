@@ -1,0 +1,79 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad01
+
+Initial Time is Wed Jun 24 01:22:23 BRT 2020
+
+Directory is /home/pp12733/mpi/mpiOpenmpSolution
+
+This jobs runs on the following nodes:
+grad01 grad04 grad03 grad02
+
+JOB_ID:
+128393
+
+-np 64
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.31135917 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.33599496 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.71998882 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   0.76730394 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.26399684 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   1.58797598 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   2.42053604 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   2.54420495 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   3.46436501 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   2.59600711 seconds
+Final Time is Wed Jun 24 01:22:41 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12733 on the batch nodes
+Doing node grad01
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad02
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:00:00 
+
+ -- MEMORY       = 1480kb 
+
+ -- VIRTUAL MEM  = 26184kb 
+
+ -- ELAPSED TIME = 00:00:19 
+

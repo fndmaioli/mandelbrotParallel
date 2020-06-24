@@ -17,7 +17,9 @@ int main(int argc, char *argv[]){
   MPI_Init(&argc,&argv);
   MPI_Comm_rank(MPI_COMM_WORLD, &id);
   MPI_Comm_size(MPI_COMM_WORLD, &p);
-  
+  if (id == 0) {
+    printf("--bynode -np %d\n",p);
+  }
   for(NPOINTS = 500; NPOINTS <=5000; NPOINTS +=500) {
 
     int i, j, iter, numoutside = 0;
@@ -54,7 +56,7 @@ int main(int argc, char *argv[]){
     if (id == 0) {
       area=2.0*2.5*1.125*(double)(NPOINTS*NPOINTS-numoutside)/(double)(NPOINTS*NPOINTS);
       error=area/(double)NPOINTS;
-
+      
       printf("Area of Mandlebrot set = %12.8f +/- %12.8f\n",area,error);
       printf("Time = %12.8f seconds\n",finish-start);
     }

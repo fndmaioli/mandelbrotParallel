@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -m abe
 #PBS -V
-#PBS -l nodes=2:ppn=16:cluster-Grad,walltime=00:30:00
+#PBS -l nodes=2:ppn=16:cluster-Grad,walltime=01:00:00
 #PBS -M fernando.maioli@acad.pucrs.br
 #PBS -r n
 #PBS -j oe
@@ -19,5 +19,10 @@ echo
 echo JOB_ID:
 echo `echo $PBS_JOBID`
 echo ################
-mpirun ./mandelbrot_mpi.o
+mpirun --bynode -np 2 ./mandelbrot_mpi.o
+mpirun --bynode -np 4 ./mandelbrot_mpi.o
+mpirun --bynode -np 8 ./mandelbrot_mpi.o
+mpirun --bynode -np 16 ./mandelbrot_mpi.o
+mpirun --bynode -np 32 ./mandelbrot_mpi.o
+
 echo Final Time is `date`

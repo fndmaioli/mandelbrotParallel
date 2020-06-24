@@ -1,0 +1,92 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad03
+
+Initial Time is Tue Jun 23 23:04:32 EDT 2020
+
+Directory is /home/pp12733/mpi/mpiSolution
+
+This jobs runs on the following nodes:
+grad03 grad04
+
+JOB_ID:
+128384
+
+--bynode -np 16
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.15662503 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.40282702 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.89984798 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.59856701 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   2.49708891 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   3.59500694 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   4.88991499 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   6.38896394 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   8.08535004 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   9.98046589 seconds
+--bynode -np 32
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.14320087 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   0.42809796 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   0.68331599 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   1.21390605 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   1.89110494 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =   2.72767711 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =   3.70803094 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =   4.84036613 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =   6.14856195 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =   7.50341392 seconds
+Final Time is Tue Jun 23 23:05:42 EDT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12733 on the batch nodes
+Doing node grad03
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad04
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:15:33 
+
+ -- MEMORY       = 105248kb 
+
+ -- VIRTUAL MEM  = 3712288kb 
+
+ -- ELAPSED TIME = 00:01:11 
+

@@ -1,0 +1,71 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad05
+
+Initial Time is Tue Jun 23 23:54:44 BRT 2020
+
+Directory is /home/pp12733/mpi/mpiSolution
+
+This jobs runs on the following nodes:
+grad05 grad06
+
+JOB_ID:
+128383
+
+--bynode -np 2
+Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.75907397 seconds
+Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   3.02984715 seconds
+Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   6.81173992 seconds
+Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =  12.10643792 seconds
+Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =  18.91312099 seconds
+Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  27.23226285 seconds
+Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  37.06637406 seconds
+Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  48.40813112 seconds
+Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  61.26435900 seconds
+Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  75.63777208 seconds
+Final Time is Tue Jun 23 23:59:35 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12733 on the batch nodes
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+Doing node grad06
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:08:52 
+
+ -- MEMORY       = 15708kb 
+
+ -- VIRTUAL MEM  = 302776kb 
+
+ -- ELAPSED TIME = 00:04:52 
+
